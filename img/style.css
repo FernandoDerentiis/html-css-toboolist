@@ -12,4 +12,23 @@
     width: 1000px;
     max-width: 100%;
   }
+
+  .upper-header{
+    line-height: 100px;
+  }
+
+  .logo{
+    height: 100px;
+    vertical-align: middle;
+  }
+
+  .scr-logo{
+    display: inline;
+    vertical-align: middle;
+    font-size: 70px;
+  }
+  .header{
+    background-color: rgb(227, 225, 223);
+  }
+
   
