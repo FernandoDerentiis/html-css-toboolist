@@ -30,15 +30,53 @@
     font-size: 50px;
   }
   .header{
-    background-color: rgb(227, 225, 223);
+    background-color: rgb(210, 217, 216);
   }
    /* fine header */
   .button-1{
-    
-    background-color: rgb(12, 120, 235);
     color: aliceblue;
+    background-color: rgb(43, 137, 226);
+    border-radius: 30px;
+    text-align: center;
+    border: none;
+
+    .butt
+   
+    
   }
 
   .bottoni{
     margin: 50px;
+  }
+
+  .lista{
+    margin: 30px;
+    list-style: none;
+  }
+
+
+  .check{
+    color: chartreuse;
+    border-radius: 30px;
+   
+   
+    
+
+
+
+
+  }
+  .strong{
+    font-size: 30px;
+
+
+  }
+
+  .button-blu{
+    color: aliceblue;
+    background-color: rgb(43, 137, 226);
+    border-radius: 30px;
+    text-align: center;
+    border: none;
+
   }
