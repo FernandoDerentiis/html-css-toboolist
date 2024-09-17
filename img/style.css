@@ -40,7 +40,7 @@
     text-align: center;
     border: none;
 
-    .butt
+    
    
     
   }
@@ -49,10 +49,21 @@
     margin: 50px;
   }
 
-  .lista{
-    margin: 30px;
-    list-style: none;
-  }
+  
+
+    
+  
+ 
+    .lista-1{
+        margin: 30px;
+        list-style: none;
+
+
+    }
+
+
+
+  
 
 
   .check{
@@ -68,6 +79,13 @@
   }
   .strong{
     font-size: 30px;
+    
+    
+
+
+  }
+  #strong-2{
+    font-size: 30;
 
 
   }
