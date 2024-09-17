@@ -12,6 +12,7 @@
     width: 1000px;
     max-width: 100%;
   }
+   /* header */
 
   .upper-header{
     line-height: 100px;
@@ -26,12 +27,12 @@
   .scr-logo{
     display: inline;
     vertical-align: middle;
-    font-size: 70px;
+    font-size: 50px;
   }
   .header{
     background-color: rgb(227, 225, 223);
   }
-
+   /* fine header */
   .button-1{
     
     background-color: rgb(12, 120, 235);
