@@ -15,6 +15,7 @@
 
   .upper-header{
     line-height: 100px;
+    padding: 10px;
   }
 
   .logo{
@@ -31,4 +32,12 @@
     background-color: rgb(227, 225, 223);
   }
 
-  
+  .button-1{
+    
+    background-color: rgb(12, 120, 235);
+    color: aliceblue;
+  }
+
+  .bottoni{
+    margin: 50px;
+  }
