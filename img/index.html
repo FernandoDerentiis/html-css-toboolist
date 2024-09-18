@@ -7,52 +7,60 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="upper-header">
+    <header class="page-header">
+        <div class="page-header">
            <img src="./Logo.png" class="logo" alt="logo">
-           <h1 class="scr-logo">Tobolist</h1>
+           <h1 class="titolo-logo">Tobolist</h1>
         </div>   
 
     </header>
 
- <main class="corpo">
-     <div class="container">
-     <!--button-->
-  <div class="bottoni">
-       <input class="button-1" type="button" value="Add task">
-       <input class="button-2"  placeholder="Add section">
-  </div>
-      
-       <!--inizio lista-->
-       
-         
-           <h1 class="strong">&#8711; <strong>New task</strong></h1> 
+    <main>
+        <div class="container">
+
+         <div class="card">
+          <div class="card-header">
+           <button class="btn btn-primary">add ask</button>
+           <button class="btn btn-secondary">add section</button>
+          </div>
+            
+          <div class="card-body">
+            <section class="todo-section">
+                <h2 class="titolo-primary"> <span>&blacktriangledown;</span>New Task</h2>
+                <ul class="lista-primary">
+                    <li class="lista-secondary">
+                        <span class="mark mark-success">&check;</span>
+                        Recruitin blog post
+                        <span class="label "> Editorial</span>
+
+                    </li>
+                </ul>
+                <ul class="lista-primary">
+                    <li class="lista-secondary">
+                        <span class="mark mark-fail">&cross;</span>
+                        Recruitin blog post
+                        <span class="label "> Editorial</span>
+
+                    </li>
+                </ul>
                 
-              
-       
+                
+            </section>
+            <section></section>
+            <section></section>
+          </div>
 
-        <ul>     
-        
-            <li class="lista-1">
-               <span class="check">&#8730;</span> Quartely Newsleater <input class="button-blu" tipe="text" value="Editorial">
 
-            </li>
+         </div>
+        </div>
 
-            <h2 class="strong">&#8711; <strong>today</strong></h2> 
 
-            
 
-            <li class="lista-1">
-                   <span class="check">&#8730;</span> Quartely Newsleater <input class="button-blu" tipe="text" value="Editorial">
-    
-            </li>
-
-            
-        </ul>
-       </div>
-
-     </div> 
     </main>
+
+ 
+        
+           
     
 </body>
 </html>

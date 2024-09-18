@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
   }
+
+   body{
+    background-color: gray;
+  }
   
   /* # UTILS */
   
@@ -12,101 +16,115 @@
     width: 1000px;
     max-width: 100%;
   }
-   /* header */
-   .header{
-    background-color: rgb(227, 234, 240);
-    
-   }
-
-  .upper-header{
-    line-height: 100px;
-    padding: 10px;
-  }
-
-  .logo{
-    height: 100px;
-    vertical-align: middle;
-  }
-
-  .scr-logo{
-    display: inline;
-    vertical-align: middle;
-    font-size: 50px;
-  }
-  
-  
-   /* fine header */
-  .button-1{
-    color: aliceblue;
-    background-color: rgb(43, 137, 226);
-    border-radius: 30px;
-    text-align: center;
-    border: none;
-
-    
-   
-    
-  }
-
 
   
-
-  .bottoni{
-    margin: 50px;
-  }
-
-  
-
-    
-  
- 
-    .lista-1{
-        margin: 30px;
-        list-style: none;
-
+  .btn{
+    display: inline-block;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: .8rem;
 
     }
 
+    .btn.btn-primary{
+      background-color: rgb(88, 199, 243);
+      color: white;
+      border: 1px solid transparent;
+    }
 
+    .btn.btn-secondary{
+      background-color: rgb(165, 170, 170);
+      color: white;
+      border: 1px solid transparent;
+
+
+    }
+      
+   /* header */
+   
+   .page-header{
+    background-color: white;
+    line-height: 90px;
+    
+    
+   }
+   .card{
+    background-color: white;
+    margin-top: 100px;
+   }
+
+   .logo,.titolo-logo{
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 30px;
+   }
+
+   .card-header{
+    padding: 20px;
+    border-bottom:white;
+   }
+
+   .card-body{
+    padding:20px ;
+    border-radius: 15px;
+
+   }
+
+   /*section*/
+
+
+
+   .todo-section{
+    margin: 30px 0px;
+   }
+
+   .lista-primary{
+    list-style-type: none;
+    
+
+   }
+
+   .lista-secondary{
+    margin: 10px;
+
+   }
+   .mark{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 25px;
+    text-align: center;
+    border: solid rgb(41, 210, 41);
+    color: green;
+
+
+   }
+
+   .mark.mark-fail{
+    border: solid rgb(226, 20, 20);
+    color: rgb(205, 46, 21);
 
   
 
+   }
 
-  .check{
+   .mark.mark-success{
+    border: solid rgb(41, 210, 41);
+    color: green;
+
+   }
+
+   .label{
     display: inline-block;
-    color: chartreuse;
-    border-radius: 30px;
-   border: 1px solid green;
-   text-align: center;
-   width: 30px;
-   height: 30px;
-   vertical-align: middle;
-   
-   
-    
+    padding: 5px;
+    font-size: .7rem;
+    font-weight: bold;
+    background-color: dimgray;
+    color: white;
+    border-radius: 5px;
 
 
 
+   }
 
-  }
-  .strong{
-    font-size: 30px;
-    
-    
-
-
-  }
-  #strong-2{
-    font-size: 30;
-
-
-  }
-
-  .button-blu{
-    color: aliceblue;
-    background-color: rgb(43, 137, 226);
-    border-radius: 30px;
-    text-align: center;
-    border: none;
-
-  }
