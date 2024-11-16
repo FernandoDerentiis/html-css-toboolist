@@ -6,8 +6,6 @@
 
 /* # UTILS */
 
-/* # UTILS */
-
 .container {
   margin: 0 auto;
   padding: 0 10px;
@@ -37,4 +35,102 @@
   height: 100px;
 
   vertical-align: middle;
+}
+
+/* body */
+.card {
+  background-color: rgb(243, 243, 234);
+  border-radius: 10px;
+  margin: auto;
+
+  padding: 20px;
+  max-height: 100%;
+}
+
+.card-header {
+  margin-bottom: 20px;
+}
+
+.btn.btn-primary {
+  background-color: rgb(72, 95, 205);
+  color: aliceblue;
+  border: solid 3px rgb(72, 95, 205);
+}
+
+.btn.btn-secondary {
+  background-color: white;
+  color: lightslategray;
+  border: solid 3px lightslategray;
+}
+
+.todo-section {
+  margin: 30px 0;
+}
+
+.list-title {
+  list-style-type: none;
+}
+.list {
+  margin: 10px 0;
+}
+
+.list::before {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+  font-size: 0.8rem;
+
+  border: solid 1px rgb(144, 219, 144);
+  color: rgb(144, 219, 144);
+}
+.list.cechk::before {
+  content: "\2713";
+
+  border: solid 1px rgb(144, 219, 144);
+  color: rgb(144, 219, 144);
+}
+
+.list.cross::before {
+  content: "\2717";
+
+  border: solid 1px rgb(199, 33, 14);
+  color: rgb(199, 33, 14);
+}
+
+/* label */
+
+.label {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 3px 4px;
+  font-size: 0.8rem;
+  color: white;
+  font-weight: bold;
+  background-color: azure;
+}
+
+.label.editorial {
+  background-color: rgb(65, 125, 209);
+}
+
+.label.goals {
+  background-color: rgb(156, 85, 222);
+}
+
+.label.recruiting {
+  background-color: rgb(99, 208, 99);
+}
+
+.label.mobile {
+  background-color: rgb(229, 199, 6);
+}
+
+.label.website {
+  background-color: rgb(211, 43, 226);
+}
+.label.sales {
+  background-color: greenyellow;
 }
