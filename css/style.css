@@ -6,10 +6,6 @@
 
 /* # UTILS */
 
-body {
-  background-color: gray;
-}
-
 /* # UTILS */
 
 .container {
@@ -19,9 +15,26 @@ body {
   max-width: 100%;
 }
 
-/* header */
+.btn {
+  display: inline-block;
+  border-radius: 10px;
 
-.page-header {
-  background-color: white;
-  line-height: 90px;
+  padding: 5px;
+  font-weight: bold;
+
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+/* header */
+.upper-header {
+  line-height: 100px;
+  background-color: rgb(243, 243, 234);
+  margin-bottom: 30px;
+}
+
+.img {
+  height: 100px;
+
+  vertical-align: middle;
 }
