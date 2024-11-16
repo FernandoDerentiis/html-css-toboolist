@@ -5,3 +5,23 @@
 }
 
 /* # UTILS */
+
+body {
+  background-color: gray;
+}
+
+/* # UTILS */
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 1000px;
+  max-width: 100%;
+}
+
+/* header */
+
+.page-header {
+  background-color: white;
+  line-height: 90px;
+}
